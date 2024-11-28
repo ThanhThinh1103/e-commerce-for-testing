@@ -82,7 +82,7 @@ function NewProduct() {
                 <Box my={5} textAlign="left">
                   <form onSubmit={handleSubmit}>
                     <FormControl>
-                      <FormLabel>Title</FormLabel>
+                      <FormLabel>Title*</FormLabel>
                       <Input
                         name="title"
                         onChange={handleChange}
@@ -98,7 +98,7 @@ function NewProduct() {
                       )}
                     </FormControl>
                     <FormControl mt={4}>
-                      <FormLabel>Description</FormLabel>
+                      <FormLabel>Description*</FormLabel>
                       <Textarea
                         name="description"
                         onChange={handleChange}
@@ -114,7 +114,7 @@ function NewProduct() {
                       )}
                     </FormControl>
                     <FormControl mt={4}>
-                      <FormLabel>Price</FormLabel>
+                      <FormLabel>Price*</FormLabel>
                       <Input
                         name="price"
                         onChange={handleChange}
